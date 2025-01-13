@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+
+.kek-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.kek-item-content {
+  flex: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.kek-item-title {
+  margin: 0px;
+}
+
+.kek-item-text {
+  margin: 0px;
+}
+
+.kek-item-actions-row {
+  margin-left: 15px;
+}
+
+.kek-item-action {
+  padding: 5px;
+}
