@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import InfiniteScroll from "react-infinite-scroll-component";
 import KekItem from "./components/KekItem";
-import { fetchKekItems } from "./network.js/KekService";
+import { fetchKekItems } from "./network/KekService";
 
 const KekItemData = (title, text) => {
   return {
